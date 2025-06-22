@@ -15,8 +15,8 @@
         "Password" : "Pass2",
         "Customer": "Company BBB",
         "Role": "Customer",
-        "Email": "admin@mail.com",
-        "CellPhone": "082555"
+        "Email": "customer@mail.com",
+        "CellPhone": "083444"
     }
 
 
