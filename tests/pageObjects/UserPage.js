@@ -33,7 +33,7 @@ class UserPage {
     }
 
     async verifyUserInTable(firstName, lastName, userName) {
-        const table = this.page.locator('tbody');
+        const table = this.page.locator('tbody').first();
         await expect(table).toContainText(firstName);
         await expect(table).toContainText(lastName);
         await expect(table).toContainText(userName);
