@@ -19,7 +19,7 @@ test.describe('Petfinder API Tests', () => {
         console.log(token)
     });
 
-    test.only('Verify "Dog" is in the list of animal types', async () => {
+    test('Verify "Dog" is in the list of animal types', async () => {
         const response = await axios.get(config.endpoints.animalTypes, {
             headers: { Authorization: `Bearer ${token}` },
         });
